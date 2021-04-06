@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'wavehaus95_semibold';
+    src: url('../fonts/wavehaus-95semibold-webfont.woff2') format('woff2'),
+         url('../fonts/wavehaus-95semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'wavehaus95_semibold' !important;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.user-row{
+    background: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15)!important;
+}
+.user-row .user-row-login img{
+    width: 100%;
+    max-width: 43%;
+    padding: 10px;
+}
+.user-row .user-row-login-register-link{
+    padding: 20px;
+}
+.user-row .user-row-login-register-link a{
+    padding: 8px;
+    color: #000000;
+    text-decoration: none;
+}
+.user-rest-row {
+    border: 1px solid #63595982;
+    padding: 0 !important;
+    margin-top: 75px;
+}
+.user-rest-row .user-rest-row-passwrd{
+    background: #e4e4e4;
+    padding: 16px;
+}
+.user-rest-row .user-rest-row-passwrd p{
+    margin: 0;
+}
+.user-rest-row .user-rest-row-form{
+    padding: 35px 80px 23px 60px;
+}
+.user-rest-row .user-rest-row-form input{
+    margin-bottom: 30px;
+}
+.user-rest-row .user-rest-row-form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.user-rest-row-form .user-rest-row-passwrd-button{
+    text-align: center;
+}
+.user-rest-row-form .user-rest-row-passwrd-button button{
+    margin-right: 91px;
+    padding: 6px 10;
+    background: #0083D2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: -14px;
+}
+.user-rest-row-form .user-rest-row-passwrd-button button:focus{
+    outline: 0px;
+    box-shadow: none;
+}
+.user-rest-row-passwrd-button-2 button{
+    margin-right: 160px !important;
+}
+.expire-offer-button ul{
+    float: right;
+    margin: 0;
+}
+.expire-offer-button ul li{
+    list-style: none;
+}
+.expire-offer-button ul li button{
+    padding: 7px 18px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+    background: #2781D2;
+    color: #ffffff;
+}
+.expire-offer-button ul li button:focus{
+    outline: 0px;
+    box-shadow: none;
+}
+/* ACTIVE OFFER AND CONFIRMED OFFER AND EXPIRED OFFER START */
+
+.dashbord-header{
+    background: #ffffff;
+    border-bottom: 1px solid #67626259;
+}
+.dashbord-header .dashbord-header-logo{
+    padding: 17px;
+    margin-left: 20px;
+}
+.dashbord-header .dashbord-header-logo a{
+    text-decoration: none;
+}
+.dashbord-header .dashbord-header-logo img{
+    width: 100%;
+    max-width: 120px;
+}
+.dashbord-header .dashbord-header-icon{
+    text-align: end;
+}
+.dashbord-header .dashbord-header-icon ul{
+    list-style: none;
+}
+.dashbord-header .dashbord-header-icon ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.dashbord-header .dashbord-header-icon ul li a{
+    text-decoration: none;
+}
+.dashbord-header .dashbord-header-icon ul li a img{
+    width: 100%;
+    max-width: 28px;
+}
+.dashboard-sidebar-content{
+    background: #FAFAFA;
+}
+.dashboard-sidebar-content .dashboard-sidebar-content-dropdown{
+    border-right: 1px solid #67626259;
+    background: #ffffff;
+}
+.dashboard-sidebar-content .dashboard-sidebar-content-dropdown .dashboard-sidebar-content-dropdown-button p{
+    background: #EBEBEB;
+    margin-top: 15px;
+    border-radius: 15px;
+    color: #4181D2;
+    padding: 8px 5px 8px 20px;
+    margin-bottom: 0px;
+}
+.dashboard-sidebar-content .dashboard-sidebar-content-dropdown .dashboard-sidebar-content-dropdown-button span{
+    float: right;
+    font-size: 25px;
+    line-height: 22px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.dashboard-sidebar-content .dashboard-sidebar-content-dropdown .dashboard-sidebar-content-dropdown-button-content ul{
+    padding-left: 18px;
+    padding-top: 10;
+    list-style: none;
+}
+.dashboard-sidebar-content .dashboard-sidebar-content-dropdown .dashboard-sidebar-content-dropdown-button-content ul li{
+    padding-bottom: 5px;
+}
+.dashboard-sidebar-content .dashboard-sidebar-content-dropdown .dashboard-sidebar-content-dropdown-button-content ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.active-offer-heading-bar{
+    padding-top: 40px;
+}
+.active-offer-heading-bar span{
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+.active-offer-heading-bar button{
+    float: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.active-offer-heading-bar button:nth-child(2){
+    margin-left: 10;
+    background: #FCA039;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.active-offer-heading-bar button:last-child{
+    border: none;
+    background: #0CBA89;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10;
+    border-radius: 5px;
+}
+.active-offer-heading-bar button:focus{
+    outline: 0px;
+    box-shadow: none;
+}
+.dashboard-active-offer-hr{
+    margin-top: 25px;
+}
+.dashboard-active-offer-content .active-offer-search-bar{
+    background: #ffffff;
+    width: 60%;
+    border-radius: 19px;
+    padding: 10px;
+}
+.dashboard-active-offer-content .active-offer-search-bar input{
+    width: 93%;
+    border: none;
+    border-bottom: 1px solid #3535355c;
+    background: none;
+}
+.dashboard-active-offer-content .active-offer-search-bar input:focus{
+    outline: 0px;
+    box-shadow: none;
+}
+.dashboard-active-offer-content .active-offer-search-bar img{
+    max-width: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.dashboard-active-offer-content .active-offer-row-content{
+    padding: 18px;
+    background: #ffffff;
+    margin-top: 23px;
+    margin-left: 6px;
+    border-radius: 10px;
+    border: 1px solid #0000002b;
+}
+.dashboard-active-offer-content .active-offer-row-content .active-offer-row-content-img img{
+    max-width: 80px;
+    width: 100%;
+}
+.dashboard-active-offer-content .active-offer-row-content .active-offer-row-content-heading{
+    padding: 5px;
+    margin-left: 8px;
+}
+.dashboard-active-offer-content .active-offer-row-content .active-offer-row-content-heading h2{
+    font-size: 21px;
+}
+.dashboard-active-offer-content .active-offer-row-content .active-offer-row-content-heading p{
+    color: #2781D2;
+    margin-bottom: 0;
+}
+.dashboard-active-offer-content .active-offer-row-content .active-offer-row-content-valid-date{
+    padding: 10px 0 0 0;
+}
+.dashboard-active-offer-content .active-offer-row-content .active-offer-row-content-valid-date ul{
+    list-style: none;
+}
+.active-offer-row-content .active-offer-row-content-heading ul{
+    margin: 0;
+    padding: 6px 0px;
+}
+.active-offer-row-content .active-offer-row-content-heading ul li{
+    display: inline-block;
+}
+.active-offer-row-content .active-offer-row-content-heading ul li img{
+    width: 100%;
+    max-width: 20px;
+    margin-top: -6px;
+    margin-right: 10px;
+}
+.confirmed-offer-checkbox{
+    float: right;
+    padding-top: 40px;
+}
+.active-offer-row-content-img-1 img{
+    padding-top: 15px;
+}
+/*ACTIVE OFFER AND CONFIRMED OFFER AND EXPIRED OFFER END */
+
+/* BUSNINESS OFFER STYLING START */
+
+.busniness-dashboard-offer-box .busniness-totle-offer-box{
+    text-align: center;
+    background: #ffffff;
+    padding: 14px 0 10px 0px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.busniness-dashboard-offer-box .busniness-totle-offer-box h5{
+    color: #4181D2;
+    margin-bottom: 0;
+}
+.busniness-dashboard-offer-box .busniness-totle-offer-box span{
+    font-size: 30px;
+}
+.busniness-offer-earning-row{
+    border: 1px solid rgba(0,0,0,.1);
+    background: #ffffff;
+    margin-top: 25px;
+    padding: 10px;
+}
+.busniness-offer-earning-row .busniness-offer-heading h2{
+    font-size: 18px;
+    padding: 10px;
+}
+.busniness-offer-earning-bar{
+    margin-top: 18px;
+    padding: 10px;
+}
+.busniness-offer-earning-bar .busniness-offer-earning-icons img{
+    width: 100%;
+    max-width: 60px;
+}
+.busniness-offer-earning-bar .busniness-offer-earning-icons .busniness-offer-earning-icons-content{
+    margin-left: 71px;
+    margin-top: -63px;
+}
+.busniness-offer-earning-bar .busniness-offer-earning-icons .busniness-offer-earning-icons-content span{
+    font-size: 15px;
+}
+.busniness-offer-earning-bar .busniness-offer-earning-icons .busniness-offer-earning-icons-content h2{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.busniness-offer-table{
+    margin-top: 30px;
+}
+.busniness-offer-table .table tbody{
+    text-align: center;
+}
+/* BUSNINESS OFFER STYLING END */
+
+/* PAKAGES PAGE START */
+.premium-pakages-heading{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.pakages-row-bar{
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+.standrd-pakages-heading{
+    background: #2781D2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.standrd-heading h2{
+    padding: 18px 0 0 0;
+    font-size: 23px;
+    color: #ffffff;
+}
+.standrd-heading hr{
+    background: #0000001a;
+}
+.standrd-price-bar h2{
+    color: #ffffff;
+    margin: 0;
+}
+.standrd-price-bar span{
+    color: #ffffff;
+}
+.pakages-setup-price{
+    padding: 30px;
+}
+.pakages-setup-price h2{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.pakages-setup-price span{
+    color: #2781D2;
+}
+.pakages-setup-price h3{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.pakages-setup-price img{
+    max-width: 23px;
+    width: 100%;
+    margin-right: 10;
+    margin-top: -6px;
+}
+.pakages-buy-button button{
+    background: #2781D2;
+    color: #ffffff;
+    border: none;
+    padding: 10 55px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.pakages-buy-button button:focus{
+    outline: 0px;
+}
+
+/* PAKAGES PAGE END */
+
+/* BUSNINESS DASHBOARD SETTING PAGE START HERE */
+
+.dashboard-active-offer-content-2{
+    display: none;
+}
+.setting-data-listing-here{
+    display: none;
+}
+.update-pass-listing-here{
+    display: none;
+}
+.dashboard-listing-data{
+    display: none;
+}
+.dashboard-listing-data h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.dashboard-user-information-row{
+    background: #ffffff;
+    margin-top: 40px;
+}
+.dashboard-user-information-1{
+    padding: 23px !important;
+}
+.dashboard-user-information-1 ul{
+    list-style: none;
+}
+.dashboard-user-information-1 ul li{
+    padding-bottom: 17px;
+}
+.dashboard-user-information-1 ul li span{
+    padding-left: 13px;
+    color: #2781D2;
+}
+
+.dashboard-active-offer-content-1 {
+    padding: 30px !important;
+}
+.active-offer-search-bar-1{
+    background: #FAFAFA !important;
+}
+.dashboard-page-setting-row-background{
+    background: #FAFAFA;
+    margin-top: 50px;
+}
+
+.dashboard-page-setting-row{
+    background: #2781D2;
+    padding: 0px !important;
+}
+.dashboard-page-setting-row .dashboard-page-user-img{
+    text-align: center;
+    padding: 15px;
+}
+.dashboard-page-setting-row .dashboard-page-user-img img{
+    width: 100%;
+    max-width: 50%;
+}
+.dashboard-page-setting-row .dashboard-page-user-img span{
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.dashboard-page-setting-row .dashboard-page-setting-listing{
+    padding-top: 20px;
+}
+.dashboard-page-setting-row .dashboard-page-setting-listing ul{
+    text-align: center;
+    list-style: none;
+}
+.dashboard-page-setting-row .dashboard-page-setting-listing li{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.dashboard-page-setting-row .dashboard-page-setting-listing li:hover{
+    background : #000000;
+}
+.dashboard-page-setting-row .dashboard-page-setting-listing hr{
+    margin: 0;
+}
+.dashboard-my-offer-view-offer-button{
+    text-align: end;
+    padding-top: 27px;
+}
+.dashboard-my-offer-view-offer-button button{
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10 19px;
+    border-radius: 30px;
+}
+.dashboard-my-offer-view-offer-button button:focus{
+    outline: 0px;
+    box-shadow: none;
+}
+
+.user-account-setting-main-11{
+    background: none !important;
+    border: none !important;
+    margin-top: 0px !important;
+}
+.user-account-setting-basic-info-1{
+    background-color: #ffffff !important;
+}
+.user-account-setting-update-profile-11{
+    background-color: #ffffff !important;
+}
+
+.user-account-setting-chnge-pass-11{
+    background-color: #ffffff !important;
+}
+/* BUSNINESS DASHBOARD SETTING PAGE END HERE */
